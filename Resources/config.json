@@ -1,0 +1,7 @@
+﻿{
+    "connectionString": "server=<host>;uid=<user>;pwd=<password>;database=<db>",
+    "loopIntervalSeconds": 10,
+    "contentDir": "c:/Path/to/Content",
+    "chatId": "-100<chatId>",
+    "accessToken": "accessToken"
+}
