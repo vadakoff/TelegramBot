@@ -44,8 +44,5 @@ class Program
         var article = new Article(config, ctx);
 
         await LoopIntervalAsync(article.Release, TimeSpan.FromSeconds(config.LoopIntervalSeconds), ctx);
-
-        Console.WriteLine("Press any key to exit...");
-        Console.ReadLine();
     }
 }
